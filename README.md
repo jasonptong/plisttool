@@ -1,5 +1,7 @@
 # plisttool
 
+This tool uses the [ipatool](https://github.com/majd/ipatool) to download .ipa files. Apple ID email and password are needed in order to bypass app certificate requests.
+
 **Demo**
 
 Retrieve a list of bundle ids based on genre.
