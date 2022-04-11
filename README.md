@@ -1,7 +1,9 @@
 # plisttool
 
 **Demo**
+
 Retrieve a list of bundle ids based on genre.
+
 ```
 usage: genre.py [-h] [-o [OUTPUT]] [-l [LIMIT]]
 
