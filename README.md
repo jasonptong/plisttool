@@ -38,3 +38,13 @@ optional arguments:
   -p [PASSWORD], --password [PASSWORD]
                         Apple ID password
 ```
+
+**Demo**
+
+Suppose we wanted to retrieve the top 10 apps from each App Store genre. We execute the following command line:
+
+```
+python3 genre.py -o bundle_ids.txt -l 10
+```
+
+A list of bundle ids are located in bundle_ids.txt.
