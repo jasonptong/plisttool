@@ -14,3 +14,25 @@ optional arguments:
   -l [LIMIT], --limit [LIMIT]
                         The maximum amount of search results to retrieve (default: 5)
 ```
+
+Retrieve plist attribute(s) from bundle ids.
+```
+usage: plisttool.py [-h] [-v VISITED] [-o [OUTPUT]] [-u [EMAIL]]
+                    [-p [PASSWORD]]
+                    filename attributes
+
+positional arguments:
+  filename              File containing bundle IDs for native iOS
+  attributes            List of plist attributes
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v VISITED, --visited VISITED
+                        File containing a list of bundle IDs to skip
+  -o [OUTPUT], --output [OUTPUT]
+                        Output file
+  -u [EMAIL], --email [EMAIL]
+                        Apple ID email
+  -p [PASSWORD], --password [PASSWORD]
+                        Apple ID password
+```
