@@ -1,0 +1,300 @@
+{
+    "genres":[
+        {
+            "genreId":36,
+            "name":"Overall"
+        },
+        {
+            "genreId":6000,
+            "name":"Business"
+        },
+        {
+            "genreId":6001,
+            "name":"Weather"
+        },
+        {
+            "genreId":6002,
+            "name":"Utilities"
+        },
+        {
+            "genreId":6003,
+            "name":"Travel"
+        },
+        {
+            "genreId":6004,
+            "name":"Sports"
+        },
+        {
+            "genreId":6005,
+            "name":"Social Networking"
+        },
+        {
+            "genreId":6006,
+            "name":"Reference"
+        },
+        {
+            "genreId":6007,
+            "name":"Productivity"
+        },
+        {
+            "genreId":6008,
+            "name":"Photo & Video"
+        },
+        {
+            "genreId":6009,
+            "name":"News"
+        },
+        {
+            "genreId":6010,
+            "name":"Navigation"
+        },
+        {
+            "genreId":6011,
+            "name":"Music"
+        },
+        {
+            "genreId":6012,
+            "name":"Lifestyle"
+        },
+        {
+            "genreId":6013,
+            "name":"Health & Fitness"
+        },
+        {
+            "genreId":6015,
+            "name":"Finance"
+        },
+        {
+            "genreId":6016,
+            "name":"Entertainment"
+        },
+        {
+            "genreId":6017,
+            "name":"Education"
+        },
+        {
+            "genreId":6018,
+            "name":"Book"
+        },
+        {
+            "genreId":6020,
+            "name":"Medical"
+        },
+        {
+            "genreId":6021,
+            "name":"Magazines & Newspapers"
+        },
+        {
+            "genreId":6022,
+            "name":"Catalogs"
+        },
+        {
+            "genreId":6023,
+            "name":"Food & Drink"
+        },
+        {
+            "genreId":6024,
+            "name":"Shopping"
+        },
+        {
+            "genreId":6025,
+            "name":"Stickers"
+        },
+        {
+            "genreId":6026,
+            "name":"Developer Tools"
+        },
+        {
+            "genreId":6027,
+            "name":"Graphics & Design"
+        },
+        {
+            "genreId":6014,
+            "name":"Games"
+        },
+        {
+            "genreId":7001,
+            "name":"Games -> Action"
+        },
+        {
+            "genreId":7002,
+            "name":"Games -> Adventure"
+        },
+        {
+            "genreId":7003,
+            "name":"Games -> Arcade"
+        },
+        {
+            "genreId":7004,
+            "name":"Games -> Board"
+        },
+        {
+            "genreId":7005,
+            "name":"Games -> Card"
+        },
+        {
+            "genreId":7006,
+            "name":"Games -> Casino"
+        },
+        {
+            "genreId":7007,
+            "name":"Games -> Dice"
+        },
+        {
+            "genreId":7008,
+            "name":"Games -> Educational"
+        },
+        {
+            "genreId":7009,
+            "name":"Games -> Family"
+        },
+        {
+            "genreId":7011,
+            "name":"Games -> Music"
+        },
+        {
+            "genreId":7012,
+            "name":"Games -> Puzzle"
+        },
+        {
+            "genreId":7013,
+            "name":"Games -> Racing"
+        },
+        {
+            "genreId":7014,
+            "name":"Games -> Role Playing"
+        },
+        {
+            "genreId":7015,
+            "name":"Games -> Simulation"
+        },
+        {
+            "genreId":7016,
+            "name":"Games -> Sports"
+        },
+        {
+            "genreId":7017,
+            "name":"Games -> Strategy"
+        },
+        {
+            "genreId":7018,
+            "name":"Games -> Trivia"
+        },
+        {
+            "genreId":7019,
+            "name":"Games -> Word"
+        },
+        {
+            "genreId":13001,
+            "name":"Newsstand -> News & Politics"
+        },
+        {
+            "genreId":13002,
+            "name":"Newsstand -> Fashion & Style"
+        },
+        {
+            "genreId":13003,
+            "name":"Newsstand -> Home & Garden"
+        },
+        {
+            "genreId":13004,
+            "name":"Newsstand -> Outdoors & Nature"
+        },
+        {
+            "genreId":13005,
+            "name":"Newsstand -> Sports & Leisure"
+        },
+        {
+            "genreId":13006,
+            "name":"Newsstand -> Automotive"
+        },
+        {
+            "genreId":13007,
+            "name":"Newsstand -> Arts & Photography"
+        },
+        {
+            "genreId":13008,
+            "name":"Newsstand -> Brides & Weddings"
+        },
+        {
+            "genreId":13009,
+            "name":"Newsstand -> Business & Investing"
+        },
+        {
+            "genreId":13010,
+            "name":"Newsstand -> Children's Magazines"
+        },
+        {
+            "genreId":13011,
+            "name":"Newsstand -> Computers & Internet"
+        },
+        {
+            "genreId":13012,
+            "name":"Newsstand -> Cooking, Food & Drink"
+        },
+        {
+            "genreId":13013,
+            "name":"Newsstand -> Crafts & Hobbies"
+        },
+        {
+            "genreId":13014,
+            "name":"Newsstand -> Electronics & Audio"
+        },
+        {
+            "genreId":13015,
+            "name":"Newsstand -> Entertainment"
+        },
+        {
+            "genreId":13017,
+            "name":"Newsstand -> Health, Mind & Body"
+        },
+        {
+            "genreId":13018,
+            "name":"Newsstand -> History"
+        },
+        {
+            "genreId":13019,
+            "name":"Newsstand -> Literary Magazines & Journals"
+        },
+        {
+            "genreId":13020,
+            "name":"Newsstand -> Men's Interest"
+        },
+        {
+            "genreId":13021,
+            "name":"Newsstand -> Movies & Music"
+        },
+        {
+            "genreId":13023,
+            "name":"Newsstand -> Parenting & Family"
+        },
+        {
+            "genreId":13024,
+            "name":"Newsstand -> Pets"
+        },
+        {
+            "genreId":13025,
+            "name":"Newsstand -> Professional & Trade"
+        },
+        {
+            "genreId":13026,
+            "name":"Newsstand -> Regional News"
+        },
+        {
+            "genreId":13027,
+            "name":"Newsstand -> Science"
+        },
+        {
+            "genreId":13028,
+            "name":"Newsstand -> Teens"
+        },
+        {
+            "genreId":13029,
+            "name":"Newsstand -> Travel & Regional"
+        },
+        {
+            "genreId":13030,
+            "name":"Newsstand -> Women's Interest"
+        }
+    ]
+}
