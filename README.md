@@ -2,7 +2,7 @@
 
 This tool uses the [ipatool](https://github.com/majd/ipatool) to download .ipa files. Apple ID email and password are needed in order to bypass app certificate requests.
 
-**Guide**
+## Guide
 
 Retrieve a list of bundle ids based on genre.
 
@@ -32,14 +32,14 @@ optional arguments:
   -v VISITED, --visited VISITED
                         File containing a list of bundle IDs to skip
   -o [OUTPUT], --output [OUTPUT]
-                        Output file
+                        Output file in JSON file
   -u [EMAIL], --email [EMAIL]
                         Apple ID email
   -p [PASSWORD], --password [PASSWORD]
                         Apple ID password
 ```
 
-**Demo**
+## Demo
 
 Suppose we wanted to retrieve the top 10 apps from each App Store genre. We execute the following command line:
 
@@ -47,4 +47,10 @@ Suppose we wanted to retrieve the top 10 apps from each App Store genre. We exec
 python3 genre.py -o bundle_ids.txt -l 10
 ```
 
-A list of bundle ids are located in bundle_ids.txt.
+A list of bundle ids are located in the output file.
+
+Suppose we wanted to obtain **NSUserTrackingUsageDescription**, which is the prompt displayed for the iOS App Tracking Transparency feature. First, add the label **NSUserTrackingUsageDescription** into a text file. Then, we can obtain this through the following command line:
+
+```
+python3 plisttool.py bundle_ids.txt attributes.txt -o plist-output.json -e <apple-id-email> -p <apple-id-password>
+```
